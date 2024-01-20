@@ -1,0 +1,40 @@
+apiVersion: radix.equinor.com/v1
+kind: RadixApplication
+
+metadata:
+  name: improvement-disc
+
+spec:
+  environments:
+  - name: latest
+    build:
+      from: main
+
+  components:
+  - name: public
+    dockerfileName: docs/public/Dockerfile
+    ports:
+      - name: http
+        port: 8080
+    publicPort: http
+    authentication:
+      oauth2:
+        clientId: 53de5b1f-5902-4192-9fe1-e504ec3306ea
+        scope: openid profile email offline_access
+        setXAuthRequestHeaders: true
+        setAuthorizationHeader: true
+        sessionStoreType: redis
+        redisStore:
+          connectionUrl: redis://redis:6379
+
+  - name: redis
+    image: bitnami/redis:latest
+    secrets:
+      - REDIS_PASSWORD
+    ports:
+      - name: redis
+        port: 6379
+
+  dnsAppAlias:
+    environment: latest
+    component: public
