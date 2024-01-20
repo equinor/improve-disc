@@ -1,18 +1,18 @@
 # Project information, do not edit
-site_name:        'OPT Documentation'
-site_description: 'Information about OPT'
-site_author:      'OPT Team'
-site_url:         'https://public-opt-documentation-latest.radix.equinor.com/'
+site_name:        'Reshape Gas'
+site_description: 'Deliver opertional excellence through value chain!'
+site_author:      'Reshape project'
+site_url:         'https://reshape-latest.radix.equinor.com/'
 
 # Repository, edit to point to appropriate repo
-repo_name: 'equinor/opt-documentation'
-repo_url:  'https://github.com/equinor/opt-documentation'
+repo_name: 'equinor/reshape-gas'
+repo_url:  'https://github.com/equinor/reshape-gas'
 edit_uri:  'edit/main/docs/public/content'
 
 docs_dir: content
 
 # Copyright, do not edit
-copyright: 'Copyright &copy; 2023 Equinor'
+copyright: 'Copyright &copy; 2024 Equinor'
 
 # Configuration, do not edit
 use_directory_urls: true
@@ -84,14 +84,4 @@ nav:
   - General:
     - Introduction: index.md
     - Contact: contact.md
-    - AccessIT: accessit.md
-  - Guide:
-    - Dashboard: dashboard.md
-    - Operation Plan: operationplan.md
-    - WO Plan: woplan.md
-    - Carry out WO Plan: cowoplan.md
-    - Main Plan: mainplan.md
-  - Documents:
-    - Glossary: glossary.md
-    - Disaster Recovery: disaster.md
-    - Runbook: runbook.md
+    - Project streams: streams.md
