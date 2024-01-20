@@ -1,0 +1,5 @@
+######
+# Ignore the built site
+######
+docs/internal/site
+docs/public/site
