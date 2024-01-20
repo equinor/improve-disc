@@ -35,6 +35,6 @@ spec:
         - name: redis
           port: 6379
 
-    dnsAppAlias:
-      environment: latest
-      component: public
+  dnsAppAlias:
+    environment: latest
+    component: public
