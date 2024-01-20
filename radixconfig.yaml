@@ -6,35 +6,35 @@ metadata:
 
 spec:
   environments:
-  - name: latest
-    build:
-      from: main
+    - name: latest
+      build:
+        from: main
 
   components:
-  - name: public
-    dockerfileName: docs/public/Dockerfile
-    ports:
-      - name: http
-        port: 8080
-    publicPort: http
-    authentication:
-      oauth2:
-        clientId: 0427ec3b-98f9-444b-9948-dd2fbe514f4d
-        scope: openid profile email offline_access
-        setXAuthRequestHeaders: true
-        setAuthorizationHeader: true
-        sessionStoreType: redis
-        redisStore:
-          connectionUrl: redis://redis:6379
+    - name: public
+      dockerfileName: docs/public/Dockerfile
+      ports:
+        - name: http
+          port: 8080
+      publicPort: http
+      authentication:
+        oauth2:
+          clientId: 0427ec3b-98f9-444b-9948-dd2fbe514f4d
+          scope: openid profile email offline_access
+          setXAuthRequestHeaders: true
+          setAuthorizationHeader: true
+          sessionStoreType: redis
+          redisStore:
+            connectionUrl: redis://redis:6379
 
-  - name: redis
-    image: bitnami/redis:latest
-    secrets:
-      - REDIS_PASSWORD
-    ports:
-      - name: redis
-        port: 6379
+    - name: redis
+      image: bitnami/redis:latest
+      secrets:
+        - REDIS_PASSWORD
+      ports:
+        - name: redis
+          port: 6379
 
-  dnsAppAlias:
-    environment: latest
-    component: public
+    dnsAppAlias:
+      environment: latest
+      component: public
