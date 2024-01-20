@@ -2,7 +2,7 @@ apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 
 metadata:
-  name: improvement-disc
+  name: reshape-gas
 
 spec:
   environments:

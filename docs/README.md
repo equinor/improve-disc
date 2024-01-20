@@ -1,8 +1,8 @@
-# OPT Documentation
+# Reshape Documentation
 
-Public and internal documentation for Low codes improvement for MMP M&S. This repo is open to everyone in Equinor. **It must not contain any secrets or restricted information.**
+Public site for for MMP M&S. This repo is open to everyone in Equinor. **It must not contain any secrets or restricted information.**
 
-It consists of two different documentation sites created using `mkdocs`:
+It consists of documentation site created using `mkdocs`:
 
 * `public`, available on ?
 * `internal`, available on ?
