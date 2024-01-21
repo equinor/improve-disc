@@ -64,12 +64,12 @@ markdown_extensions:
 # To add css
 extra_css:
   - 'stylesheets/extra.css'
-  - 'https://unpkg.com/mermaid@7.1.2/dist/mermaid.css'
+  - 'https://unpkg.com/mermaid@10.7.0/dist/mermaid.css'
 
 # To support PyMdown
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-  - 'https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'
+  - 'https://unpkg.com/mermaid@10.7.0/dist/mermaid.min.js'
 
 # Enable search functionality
 plugins:
