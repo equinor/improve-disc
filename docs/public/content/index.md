@@ -1,11 +1,45 @@
 # Reshape gas
 
+Equinor is providing energy, in the current business we cover 20% of the gas demand in Europe. Within M&S we are repsonible for the delivery and to optimize the value of our products through trading. In the coming year we will also play a central role in capatializing on new products in the net zero strategy.
+
+Our work processes and IT systems have served us well for many years. There are however several pain point that needs to be addressed and solved. We need to reduce the operational complexity in order to reduce the operational risk and enable for new business.
+
+The challenge is that we need to keep the business running and in paralell do significant changes in the work processes and IT landscape. Reshape Gas as project is established to orchestrate this task, but it highly depended on the competence and engagement of everyone involved in the gas value chain to do deliver.
+
+``` mermaid
+
+timeline
+    title Reshape Gas history
+    2021 : DC Merge
+    2022 : DC Merge
+    2023 : Change of direction
+    2024 : Upgrade
+    2025 : Implement
+    2026 : Implement
+
+```
+
+## WHY
 The projects purpose is to provide the following business value
 
- - Reduce operational risk
- - Enable new business
+ - Operations/Finance: Reduce operational risk
+ - Market: Enable new business
+ - People: Engagement and motivation
+ - HSE: Mitigate risks
 
-The 
+## HOW
+Within the gas value chain, there are > 200 people working, 5 core system, requirements, sox control and an adbunce of excel shets - in other words: high complexity. Our strategy for tackling the complexity to get map out the overall value chain process, across systems and roles.
+
+In the first phase of the project there was done major effort to identify pain points and improvement areas in our current process and IT systems. In addition we have several benchmark reports and finding throug verifications activities.
+This is a crucial input for understanding and priortizing the current business. There is however not a "magic solution" in implementing new IT solution, it is a combination of understanding the context, process and lastly finding a solution.
+
+The overall longterm goal is to provide a efficient and data driven solution which can serve current business and is flexible to take on new business opportunities swiftly.
+
+
+## WHEN
+Upgrading/replacing the core systems is slow due to resource and due to the fact that is the spine of current business. 
+
+
 
 
 ## Project streams
@@ -15,7 +49,7 @@ Due to the complexity and the fact the system are critical for running the busin
 To deliver a contionous improvement, there is a separate stream for using a combitional no-code/low-code and the Atlas data platform to deliver improvements alongside with the bigger tasks.
 
 
-### Gas Value Chain
+### Gas / LNG Value Chain
 
 ### GasOps Move
 
@@ -23,7 +57,7 @@ To deliver a contionous improvement, there is a separate stream for using a comb
 
 ## Project timeline
 
-::: mermaid
+``` mermaid
 gantt
     title Reshape Gas
     dateFormat  DD-MM-YYYY
@@ -40,4 +74,4 @@ gantt
     Dealhandling pain points :01-01-2024, 150d
 
 
-:::
+```
