@@ -85,3 +85,11 @@ nav:
     - Introduction: index.md
     - Contact: contact.md
     - Project streams: streams.md
+  - Gas Value Chain:
+    - Analysis: gasvaluechain/gvc-analysis.md
+  - Gas Operations:
+    - Analysis: gasops/go-analysis.md
+    - DC Dispath: gasops/go-dc-dispatch.md
+  - Improvements:
+    - System landscape: improvement/imp-arch.md
+    - Improvement Enablers: improvement/imp-enablers.md

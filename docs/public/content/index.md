@@ -22,3 +22,22 @@ To deliver a contionous improvement, there is a separate stream for using a comb
 ### Contionous improvement
 
 ## Project timeline
+
+::: mermaid
+gantt
+    title Reshape Gas
+    dateFormat  DD-MM-YYYY
+    axisFormat %Y-%B
+    tickInterval 3month
+    section Value Chain
+    Endur upgrade    :crit, active, 01-01-2024 , 360d
+    Billing          :01-03-2024, 360d
+    section Gas Ops
+    Dispatch DC      :active, 01-01-2024, 90d
+    GasOps Move      :01-01-2024  , 12d
+    another task     : 24d
+    section Improvement
+    Dealhandling pain points :01-01-2024, 150d
+
+
+:::
