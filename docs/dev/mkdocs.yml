@@ -1,13 +1,13 @@
 # Project information, do not edit
-site_name:        'Reshape Gas'
+site_name:        'Reshape Gas - Development'
 site_description: 'Deliver operational excellence through value chain!'
 site_author:      'Reshape project'
-site_url:         'https://public-reshape-latest.radix.equinor.com/'
+site_url:         'https://dev-reshape-latest.radix.equinor.com/'
 
 # Repository, edit to point to appropriate repo
 repo_name: 'equinor/reshape-gas'
 repo_url:  'https://github.com/equinor/reshape-gas'
-edit_uri:  'edit/main/docs/public/content'
+edit_uri:  'edit/main/docs/dev/content'
 
 docs_dir: content
 
@@ -47,7 +47,6 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji # Added FRSKJA
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
@@ -84,13 +83,12 @@ plugins:
 nav:
   - General:
     - Introduction: index.md
-    - Contact: contact.md
-    - Project streams: streams.md
-  - Gas Value Chain:
-    - Analysis: gasvaluechain/gvc-analysis.md
-  - Gas Operations:
-    - Analysis: gasops/go-analysis.md
-    - DC Dispath: gasops/go-dc-dispatch.md
-  - Improvements:
-    - System landscape: improvement/imp-arch.md
-    - Improvement Enablers: improvement/imp-enablers.md
+    - Contacts: contact.md
+  - Endur:
+    - Analysis: endur/gvc-analysis.md
+  - EnergyBoss:
+    - Analysis: billing/go-analysis.md
+    - DC Dispath: billing/go-dc-dispatch.md
+  - Low code:
+    - System landscape: low-code/imp-arch.md
+    - Improvement Enablers: low-code/imp-enablers.md

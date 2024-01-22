@@ -19,15 +19,15 @@ timeline
 
 ```
 
-## WHY
+## Why reshape gas
 The projects purpose is to provide the following business value
 
  - Operations/Finance: Reduce operational risk
  - Market: Enable new business
  - People: Engagement and motivation
- - HSE: Mitigate risks
 
-## HOW
+
+## How to deliver
 Within the gas value chain, there are > 200 people working, 5 core system, requirements, sox control and an adbunce of excel shets - in other words: high complexity. Our strategy for tackling the complexity to get map out the overall value chain process, across systems and roles.
 
 In the first phase of the project there was done major effort to identify pain points and improvement areas in our current process and IT systems. In addition we have several benchmark reports and finding throug verifications activities.
@@ -35,8 +35,19 @@ This is a crucial input for understanding and priortizing the current business. 
 
 The overall longterm goal is to provide a efficient and data driven solution which can serve current business and is flexible to take on new business opportunities swiftly.
 
+**Key enablers**
 
-## WHEN
+| | Enabler                                 | Description |
+|-|-----------------------------------------|-------------|
+| :material-database-check: | Trusted data  | Strenghten integrations and system verificated data |
+| :material-database-eye-outline: | Available data  | Improve decision basis             |
+| :material-cogs: | Automation      | Reduce manual time and increase quality             |
+| :material-speedometer:  | Efficiency, usability and reduced costs | Simply IT landscape            |
+| :fontawesome-brands-connectdevelop: | Modernising technology   | Renew or retire             |
+
+
+
+## When is it happening
 Upgrading/replacing the core systems is slow due to resource and due to the fact that is the spine of current business. 
 
 
@@ -63,15 +74,24 @@ gantt
     dateFormat  DD-MM-YYYY
     axisFormat %Y-%B
     tickInterval 3month
-    section Value Chain
-    Endur upgrade    :crit, active, 01-01-2024 , 360d
-    Billing          :01-03-2024, 360d
+    section LNG Value Chain
+        Pre-analysis     :active, lng1, 01-01-2024, 90d
+        LNG MVP          :crit, lng2, after lng1, 180d
+        LNG final        :crit, lng3, 01-04-2025, 300d
+    section Gas Value Chain
+        MorningStar      :crit, active, 01-01-2024, 60d
+        ESM              : 01-08-2024, 90d
+        Pain points      : 01-01-2024, 150d
+        Better ways      : 01-05-2024, 210d
+        Enhance          : 01-08-2025, 300d
+        Endur Prestudy V22     : active, 01-01-2024, 90d
+        Endur cleanup    :  01-01-2024, 180d
+        Endur Event driven     : 01-01-2024,180d
     section Gas Ops
-    Dispatch DC      :active, 01-01-2024, 90d
-    GasOps Move      :01-01-2024  , 12d
-    another task     : 24d
-    section Improvement
-    Dealhandling pain points :01-01-2024, 150d
+        Dispatch DC      :active, 01-01-2024, 90d
+        GasOps Move      :01-01-2024  , 460d
+        
+
 
 
 ```

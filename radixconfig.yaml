@@ -27,6 +27,22 @@ spec:
         redisStore:
           connectionUrl: redis://redis:6379
 
+  - name: dev
+    dockerfileName: docs/dev/Dockerfile
+    ports:
+      - name: http
+        port: 8080
+    publicPort: http
+    authentication:
+      oauth2:
+        clientId: 0427ec3b-98f9-444b-9948-dd2fbe514f4d
+        scope: openid profile email offline_access
+        setXAuthRequestHeaders: true
+        setAuthorizationHeader: true
+        sessionStoreType: redis
+        redisStore:
+          connectionUrl: redis://redis:6379
+
   - name: redis
     image: bitnami/redis:latest
     secrets:
@@ -36,5 +52,6 @@ spec:
         port: 6379
 
   dnsAppAlias:
-    environment: latest
-    component: public
+    - alias: reshape.equinor.com
+      environment: latest
+      component: public
