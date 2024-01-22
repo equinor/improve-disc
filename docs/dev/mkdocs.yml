@@ -90,5 +90,5 @@ nav:
     - Analysis: billing/go-analysis.md
     - DC Dispath: billing/go-dc-dispatch.md
   - Low code:
-    - System landscape: low-code/imp-arch.md
-    - Improvement Enablers: low-code/imp-enablers.md
+    - Introduction: low-code/imp-arch.md
+    - Improvement enablers: low-code/imp-enablers.md
