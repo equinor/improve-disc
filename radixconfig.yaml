@@ -52,6 +52,10 @@ spec:
         port: 6379
 
   dnsAppAlias:
-    - alias: reshape.equinor.com
-      environment: latest
-      component: public
+    environment: latest
+    component: public
+  
+  dnsExternalAlias:
+  - alias: reshape.equinor.com
+    component: public
+    environment: latest
