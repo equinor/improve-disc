@@ -37,9 +37,47 @@ The overall longterm goal is to provide a efficient and data driven solution whi
 
 **Key enablers**
 
-| | Enabler                                 | Description |
-|-|-----------------------------------------|-------------|
-| :material-database-check: | Trusted data  | Strenghten integrations and system verificated data |
+
+<div class="grid cards" markdown>
+
+-   :material-database-check:{ .lg .middle } __Trusted data__
+
+    ---
+
+    Strenghten integrations and system verificated data
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
+ Trusted data
+
+
+| Enabler                                 | Description |
+|-----------------------------------------|-------------|
+|   | Strenghten integrations and system verificated data |
 | :material-database-eye-outline: | Available data  | Improve decision basis             |
 | :material-cogs: | Automation      | Reduce manual time and increase quality             |
 | :material-speedometer:  | Efficiency, usability and reduced costs | Simply IT landscape            |
