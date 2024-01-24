@@ -85,10 +85,15 @@ nav:
     - Introduction: index.md
     - Contacts: contact.md
   - Endur:
-    - Analysis: endur/gvc-analysis.md
+    - Analysis: endur/endur-intro.md
   - EnergyBoss:
-    - Analysis: billing/go-analysis.md
-    - DC Dispath: billing/go-dc-dispatch.md
+    - Analysis: energyboss/eb-intro.md
   - Low code:
-    - Introduction: low-code/imp-arch.md
-    - Improvement enablers: low-code/imp-enablers.md
+    - Introduction: low-code/lc-intro.md
+    - Citizen Analytics on Demand: low-code/lc-cad.md
+    - Data products: low-code/lc-dataproducts.md
+    - Invoice validation: low-code/lc-invoice-validation.md
+    - Power invoicing: low-code/lc-power-invoicing.md
+    - Gas cost invoices: low-code/lc-cost-invoices.md
+    - Gas sales invoices: low-code/lc-sales-invoices.md
+    - SOX optimize: low-code/lc-sox.md

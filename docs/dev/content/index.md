@@ -32,16 +32,13 @@ flowchart LR
 [Study on the functioning of the European Gas Market](https://www.ice.com/publicdocs/Oxera_Study_into_the_Functioning_of_the_European_Gas_Market.pdf)
 
 #### Pricing
+Gas prices are for typically indexed on the hubs when dealing in Europe:
 
 - Hub-Spot
-    - TTF
-    - THE
-    - Henry Hub
-    - NBP
-    - PEG
-    - PSV
 - Oil indexation
 - Regulated prices
+
+The prices are delivered through Morningstar. 
 
 #### Derivates
 
