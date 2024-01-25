@@ -84,8 +84,8 @@ plugins:
 nav:
   - General:
     - Introduction: index.md
+    - Improvement areas: improvement.md
     - Contact: contact.md
-    - Project streams: streams.md
   - Gas Value Chain:
     - Analysis: gasvaluechain/gvc-analysis.md
   - Gas Operations:
