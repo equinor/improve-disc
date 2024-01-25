@@ -84,13 +84,10 @@ plugins:
 nav:
   - General:
     - Introduction: index.md
-    - Improvement areas: improvement.md
     - Contact: contact.md
-  - Gas Value Chain:
-    - Analysis: gasvaluechain/gvc-analysis.md
-  - Gas Operations:
-    - Analysis: gasops/go-analysis.md
-    - DC Dispath: gasops/go-dc-dispatch.md
-  - Improvements:
-    - System landscape: improvement/imp-arch.md
-    - Improvement Enablers: improvement/imp-enablers.md
+  - Shift Operations:
+    - General: gasops/general.md
+  - Business Implementation:
+    - General: bip/general.md
+  - Dealhandling:
+    - General: dealhandling/general.md
