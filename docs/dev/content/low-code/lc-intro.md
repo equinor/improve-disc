@@ -15,7 +15,7 @@ There is established an dedicated Power Platform environment for MMP.
 
 The accesses for any "product" that you make and make available in **production** (Sharepoint sites, PowerApps, PowerBI) should be administered through an AD group. 
 
-::: mermaid
+``` mermaid
 sequenceDiagram
     participant User
     participant AccessIT
@@ -25,7 +25,7 @@ sequenceDiagram
         AccessIT->>AccessIT: Approve/Decline
     end
     AccessIT->>SecurityRole: User is added to group, grants security role
-:::
+```
 
 
 #### AccessIT (User Groups)
