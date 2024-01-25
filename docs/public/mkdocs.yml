@@ -1,8 +1,8 @@
 # Project information, do not edit
-site_name:        'Reshape Gas'
+site_name:        'COG: Reshape Gas'
 site_description: 'Deliver operational excellence through value chain!'
 site_author:      'Reshape project'
-site_url:         'https://public-reshape-latest.radix.equinor.com/'
+site_url:         'https://reshape.equinor.com/'
 
 # Repository, edit to point to appropriate repo
 repo_name: 'equinor/reshape-gas'

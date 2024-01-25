@@ -1,4 +1,4 @@
-# Reshape gas
+# Reshape gas for COG
 
 Equinor is providing energy, in the current business we cover 20% of the gas demand in Europe. Within M&S we are repsonible for the delivery and to optimize the value of our products through trading. In the coming year we will also play a central role in capatializing on new products in the net zero strategy.
 
@@ -10,21 +10,24 @@ The challenge is that we need to keep the business running and in paralell do si
 
 timeline
     title Reshape Gas history
-    2021 : DC Merge
-    2022 : DC Merge
+    2019 : Danske Commodoties
+         : Harvest synergies EQNR/DC
     2023 : Change of direction
-    2024 : Upgrade
-    2025 : Implement
-    2026 : Implement
+    2024 : Upgrade core systems
+         : Improvments
+    2025 : Upgrade core systems
+         : Improvements
 
 ```
 
 ## Why reshape gas
 The projects purpose is to provide the following business value
 
- - Operations/Finance: Reduce operational risk
- - Market: Enable new business
- - People: Engagement and motivation
+> **Operations/Finance** Reduce operational risk
+
+> **Market** Enable new business
+
+> **People** Engagement and motivation
 
 
 ## How to deliver
@@ -37,36 +40,21 @@ The overall longterm goal is to provide a efficient and data driven solution whi
 
 **Key enablers**
 
-| Enabler                                 | Description |
-|-----------------------------------------|-------------|
-|  Trusted data | Strenghten integrations and system verificated data |
-|  Available data  | Improve decision basis             |
-|  Automation      | Reduce manual time and increase quality             |
-|  Efficiency, usability and reduced costs | Simply IT landscape            |
-| |Modernising technology   | Renew or retire             |
+> **Trusted data** Strenghten integrations and system verificated data 
+
+> **Available data** Improved decision basis across core systems
+
+> **Automation** Reduce manual time and increase quality
+
+> **Efficiency, usability and reduced costs** Through a simplied IT landscape
+
+> **Modernising technology** Renew, retire, refine
 
 
 
 ## When is it happening
 Upgrading/replacing the core systems is slow due to resource and due to the fact that is the spine of current business. 
 
-
-
-
-## Project streams
-
-Due to the complexity and the fact the system are critical for running the business, updating the core systems (ETRM, Gas Operations, Billing) is an activity that takes time.
-
-To deliver a contionous improvement, there is a separate stream for using a combitional no-code/low-code and the Atlas data platform to deliver improvements alongside with the bigger tasks.
-
-
-### Gas / LNG Value Chain
-
-### GasOps Move
-
-### Contionous improvement
-
-## Project timeline
 
 ``` mermaid
 gantt
@@ -91,7 +79,20 @@ gantt
         Dispatch DC      :active, 01-01-2024, 90d
         GasOps Move      :01-01-2024  , 460d
         
-
-
-
 ```
+
+## Project streams
+
+Due to the complexity and the fact the system are critical for running the business, updating the core systems (ETRM, Gas Operations, Billing) is an activity that takes time.
+
+To deliver a contionous improvement, there is a separate stream for using a combitional no-code/low-code and the Atlas data platform to deliver improvements alongside with the bigger tasks.
+
+
+### Gas / LNG Value Chain
+
+### GasOps Move
+
+### Contionous improvement
+
+## Project timeline
+
