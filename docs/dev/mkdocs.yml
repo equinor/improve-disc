@@ -47,6 +47,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
@@ -88,6 +89,8 @@ nav:
     - Analysis: endur/endur-intro.md
   - EnergyBoss:
     - Analysis: energyboss/eb-intro.md
+  - Dispatch:
+  - Icertis:
   - Low code:
     - Introduction: low-code/lc-intro.md
     - Atlas: low-code/lc-atlas.md
