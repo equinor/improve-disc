@@ -90,8 +90,8 @@ nav:
     - Analysis: energyboss/eb-intro.md
   - Low code:
     - Introduction: low-code/lc-intro.md
-    - Citizen Analytics on Demand: low-code/lc-cad.md
-    - Data products: low-code/lc-dataproducts.md
+    - Atlas: low-code/lc-atlas.md
+    - PowerPlatform: low-code/lc-powerplatform.md
     - Invoice validation: low-code/lc-invoice-validation.md
     - Power invoicing: low-code/lc-power-invoicing.md
     - Gas cost invoices: low-code/lc-cost-invoices.md

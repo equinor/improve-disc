@@ -1,8 +1,14 @@
 # Cases
 
 - Power purchase for assets
+- Wennto
 - Dudegon - Contract for Differences (CFD)
 - DoggerBank
+
+## Wennto
+
+
+
 
 ## Power purchase for assets
 

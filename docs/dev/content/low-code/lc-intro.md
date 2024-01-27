@@ -9,6 +9,19 @@ There are currently 4 well established platform in Equinor for doing low-code de
 
 There is established an dedicated Power Platform environment for MMP. 
 
+## Resources
+
+| **System**    | **Description** | **Access** | **Links** |
+|---------------|-----------------|------------|-----------|
+| PowerBI       |                 |            |           |
+| PowerPlatform |                 |            |  [M&S PowerPlatform Dev](https://make.powerautomate.com/environments/e933e4bc-1758-4a04-9ea1-44ff9a1269c8/home)         |
+| Atlas CAD     |                 |            |  [Atlas COG](https://web.azuresynapse.net/?workspace=%2fsubscriptions%2ffd2a1b0e-280d-48f3-b7c5-1b9c0b796c70%2fresourceGroups%2fcad-cog-s1-rg-m81%2fproviders%2fMicrosoft.Synapse%2fworkspaces%2fcad-cog-s1-syn-m81)         |
+| Atlas         |                 |            |           |
+| GitHub        |                 |            |           |
+| DevOps        |                 |            |           |
+
+
+
 ## Power Platform Governance
 
 ### User Management

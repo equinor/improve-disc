@@ -89,5 +89,9 @@ nav:
     - General: gasops/general.md
   - Business Implementation:
     - General: bip/general.md
-  - Dealhandling:
+  - Dealhandling (DHG):
     - General: dealhandling/general.md
+  - Dealhandling (ODL):
+    - General: 
+  - Contracts:
+    -General:

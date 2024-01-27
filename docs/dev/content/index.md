@@ -4,6 +4,13 @@ In the context of marketing of piped gas.
 
 Frame conditions and Equinor's implementation.
 
+
+Improvement List
+
+Improvement Dashboard
+
+Make new improvement
+
 ## Gas Market
 
 ``` mermaid
