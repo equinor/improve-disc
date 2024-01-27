@@ -75,7 +75,6 @@ plugins:
   - search:
       separator: '[\s]+'
       lang: en
-      prebuild_index: true
   - git-revision-date
   - mermaid2:
       version: 10.7.0
@@ -90,7 +89,9 @@ nav:
   - EnergyBoss:
     - Analysis: energyboss/eb-intro.md
   - Dispatch:
+    - Introduction: index.md
   - Icertis:
+    - Introduction: index.md
   - Low code:
     - Introduction: low-code/lc-intro.md
     - Atlas: low-code/lc-atlas.md
