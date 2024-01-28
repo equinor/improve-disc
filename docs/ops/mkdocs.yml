@@ -92,6 +92,6 @@ nav:
   - Dealhandling (DHG):
     - General: dealhandling/general.md
   - Dealhandling (ODL):
-    - General: 
+    - General: index.md
   - Contracts:
-    -General:
+    - General: index.md
