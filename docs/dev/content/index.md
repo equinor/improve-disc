@@ -38,26 +38,7 @@ flowchart LR
 
 [Study on the functioning of the European Gas Market](https://www.ice.com/publicdocs/Oxera_Study_into_the_Functioning_of_the_European_Gas_Market.pdf)
 
-#### Pricing
-Gas prices are for typically indexed on the hubs when dealing in Europe:
 
-- Hub-Spot
-- Oil indexation
-- Regulated prices
-
-The prices are delivered through Morningstar. 
-
-#### Derivates
-
-Over the counter (**OTC**): Bespoke agreements
-
-**Exchange**: Standard contracts that are trades on exchanges and centrally cleared
-
-The common derivates are:
- - Futures (Exchange)
- - Forwards (OTC)
- - Options (Exchange)
- - Swaps (OTC)
 
 ### Gas bilateral agreement and trading
 
@@ -97,17 +78,6 @@ flowchart LR
     Endur --> Invoice
 ```
 
-#### Contract
-
-- Price
-- Volume
-- Delivery
-- Invoice terms
-- Force majeur
-- Nomination terms
-
-The [EFET](https://efet.org/files/documents/EFET%20General%20Agreement%20Natural%20Gas%20V2.0(a).pdf) is contract standard for the structure of the contract and some of the terms.
-
 #### Volumes
 
 [EDIGAS](https://www.edigas.org/) is communication standard for exchanging information regarding physical flow of gas.
@@ -141,6 +111,38 @@ Communication between actors in the gas market
 
 Open invoice standards (not in use)
 [PEPPOL](https://peppol.org/)
+
+#### Pricing
+Gas prices are for typically indexed on the hubs when dealing in Europe:
+
+- Hub-Spot
+- Oil indexation
+- Regulated prices
+
+The prices are delivered through Morningstar. 
+
+#### Derivates
+
+Over the counter (**OTC**): Bespoke agreements
+
+**Exchange**: Standard contracts that are trades on exchanges and centrally cleared
+
+The common derivates are:
+ - Futures (Exchange)
+ - Forwards (OTC)
+ - Options (Exchange)
+ - Swaps (OTC)
+
+ #### Contract
+
+- Price
+- Volume
+- Delivery
+- Invoice terms
+- Force majeur
+- Nomination terms
+
+The [EFET](https://efet.org/files/documents/EFET%20General%20Agreement%20Natural%20Gas%20V2.0(a).pdf) is contract standard for the structure of the contract and some of the terms.
 
 ## Equinor 
 
@@ -196,4 +198,6 @@ flowchart LR
 | SAP FI  | SAP Financial module, used for posting invoices, payment settlement, distribution, tax etc | F&C |
 | SAP BW  | SAP Business Warehouse, used for generating Profit and Loss dashboard and marked exposure | F&C |
 | CRisk  | Application used for credit risk | Risk |
+| ICertis  | Contract archive | ODL |
+| Leads  | Sales lead to contract mgmt | GM |
 

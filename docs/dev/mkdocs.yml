@@ -32,6 +32,29 @@ theme:
   logo: stylesheets/Equinor_Symbol_Favicon_RED_64x64px.png
   favicon: stylesheets/Equinor_Symbol_Favicon_RED_32x32px.png
 
+  # Navigation, add new files under the main manu
+nav:
+  - General:
+    - Introduction: index.md
+    - Contacts: contact.md
+  - Endur:
+    - Analysis: endur/endur-intro.md
+  - EnergyBoss:
+    - Analysis: energyboss/eb-intro.md
+  - Dispatch:
+    - Introduction: index.md
+  - Icertis:
+    - Introduction: index.md
+  - Low code:
+    - Introduction: low-code/lc-intro.md
+    - Atlas: low-code/lc-atlas.md
+    - PowerPlatform: low-code/lc-powerplatform.md
+    - Invoice validation: low-code/lc-invoice-validation.md
+    - Power invoicing: low-code/lc-power-invoicing.md
+    - Gas cost invoices: low-code/lc-cost-invoices.md
+    - Gas sales invoices: low-code/lc-sales-invoices.md
+    - SOX optimize: low-code/lc-sox.md
+
 # Extensions, do not edit
 markdown_extensions:
   - attr_list
@@ -79,25 +102,3 @@ plugins:
   - mermaid2:
       version: 10.7.0
 
-# Navigation, add new files under the main manu
-nav:
-  - General:
-    - Introduction: index.md
-    - Contacts: contact.md
-  - Endur:
-    - Analysis: endur/endur-intro.md
-  - EnergyBoss:
-    - Analysis: energyboss/eb-intro.md
-  - Dispatch:
-    - Introduction: index.md
-  - Icertis:
-    - Introduction: index.md
-  - Low code:
-    - Introduction: low-code/lc-intro.md
-    - Atlas: low-code/lc-atlas.md
-    - PowerPlatform: low-code/lc-powerplatform.md
-    - Invoice validation: low-code/lc-invoice-validation.md
-    - Power invoicing: low-code/lc-power-invoicing.md
-    - Gas cost invoices: low-code/lc-cost-invoices.md
-    - Gas sales invoices: low-code/lc-sales-invoices.md
-    - SOX optimize: low-code/lc-sox.md
