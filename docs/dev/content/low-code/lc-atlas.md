@@ -7,6 +7,8 @@ A Citizen
 
 ## Data products 
 
+
+
 ### EnergyBoss
 
 ### Endur
@@ -22,6 +24,24 @@ CAD typically have to use cases:
 
 [What is CAD](https://dev.atlas.equinor.com/docs/articles/cad/what-is-cad.html)
 
-### CAD Academy
+### CAD Tips and tricks
 
 [CAD Academy](https://dev.atlas.equinor.com/docs/users/cad-academy/README.html)
+
+
+### User uploads data
+
+``` mermaid
+sequenceDiagram
+    User-->>+PowerApp: Authorize
+    PowerApp->>+Blob: Uploads file
+    Blob-->>+CAD: Trigger pipeline
+    Blob-->>+PowerAutomate: Trigger blob event
+    PowerAutomate->>+Dataverse: Write filename and status
+    CAD-->>+Notebook: Invoke
+    Notebook->>+SQL: Append to db
+    Notebook-->>CAD: Status
+    CAD-->>PowerAutomate: Trigger webhook
+    PowerAutomate->>Dataverse: Update status
+    
+```
