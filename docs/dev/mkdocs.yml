@@ -91,7 +91,7 @@ extra_css:
 
 # To support PyMdown
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/MathJax.js?config=TeX-MML-AM_CHTML'
 
 # Enable search functionality
 plugins:
@@ -99,7 +99,6 @@ plugins:
       separator: '[\s]+'
       lang: en
   - git-revision-date
-  - material/typeset
   - mermaid2:
       version: 10.7.0
 
