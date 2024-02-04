@@ -3,6 +3,7 @@ mkdocs-git-revision-date-plugin
 mkdocs-material
 mkdocs-material-extensions
 pymdown-extensions
+markdown_extensions
 mkdocs-mermaid2-plugin
 markdown
 mkdocs-material[imaging]
