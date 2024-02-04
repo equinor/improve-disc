@@ -6,4 +6,3 @@ pymdown-extensions
 mkdocs-mermaid2-plugin
 markdown
 mkdocs-material[imaging]
-pymdownx.twemoji_db
