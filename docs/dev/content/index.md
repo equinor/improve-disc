@@ -5,11 +5,9 @@ In the context of marketing of piped gas.
 Frame conditions and Equinor's implementation.
 
 
-Improvement List
+[Improvement List :fontawesome-solid-list:](https://statoilsrm.sharepoint.com/sites/COGImprovement/Lists/Improvement%20list/AllItems.aspx){ .md-button }
 
-Improvement Dashboard
-
-[Send :fontawesome-solid-paper-plane:](https://forms.office.com/e/zFgZ9ahas6){ .md-button }
+[Submit Improvement :fontawesome-solid-paper-plane:](https://forms.office.com/e/zFgZ9ahas6){ .md-button }
 
 ## Gas Market
 
