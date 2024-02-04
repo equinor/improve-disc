@@ -5,3 +5,4 @@ mkdocs-material-extensions>=1.0.3
 pymdown-extensions>=9.4
 mkdocs-mermaid2-plugin
 markdown
+mkdocs-material[imaging]
