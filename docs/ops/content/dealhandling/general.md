@@ -8,7 +8,7 @@
 ::: mermaid
 sequenceDiagram
 
-Wennto --> ff
+Wennto -- ff --> ff
 
 
 :::

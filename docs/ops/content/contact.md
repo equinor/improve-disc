@@ -27,8 +27,6 @@ Frode Skjæveland | Business Advisory - Gas value Chain | frskja@equinor.com |
 Kristina Iversten Hatteland | Business  | SRMO@equinor.com  | 
 
 
-
-
 ## Dealhandling
 Name | Role | Email | 
 -----|------|-------|
