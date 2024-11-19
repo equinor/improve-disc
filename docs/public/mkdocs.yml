@@ -1,7 +1,7 @@
 # Project information, do not edit
-site_name:        'COG: Reshape Gas'
-site_description: 'Deliver operational excellence through value chain!'
-site_author:      'Reshape project'
+site_name:        'DISC: Improvement Squad'
+site_description: 'Deliver operational excellence through value chains!'
+site_author:      'Frode Skjæveland'
 site_url:         'https://reshape.equinor.com/'
 
 # Repository, edit to point to appropriate repo
@@ -85,12 +85,8 @@ nav:
   - General:
     - Introduction: index.md
     - Improvement areas: improvement.md
-    - Contact: contact.md
-  - Gas Value Chain:
+  - Power Platform:
     - Analysis: gasvaluechain/gvc-analysis.md
-  - Gas Operations:
-    - Analysis: gasops/go-analysis.md
-    - DC Dispath: gasops/go-dc-dispatch.md
-  - Improvements:
-    - System landscape: improvement/imp-arch.md
-    - Improvement Enablers: improvement/imp-enablers.md
+  - Data products:
+    - Gassco: gasops/go-analysis.md
+    - Endur: gasops/go-dc-dispatch.md

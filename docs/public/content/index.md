@@ -1,5 +1,4 @@
-# Reshape gas for COG
-
+# Lowcode :heart: datalake
 Equinor is providing energy, in the current business we cover 20% of the gas demand in Europe. Within M&S we are repsonible for the delivery and to optimize the value of our products through trading. In the coming year we will also play a central role in capatializing on new products in the net zero strategy.
 
 Our work processes and IT systems have served us well for many years. There are however several pain point that needs to be addressed and solved. We need to reduce the operational complexity in order to reduce the operational risk and enable for new business.
