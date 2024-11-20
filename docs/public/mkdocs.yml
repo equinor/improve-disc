@@ -84,9 +84,10 @@ plugins:
 nav:
   - General:
     - Introduction: index.md
-    - Improvement areas: improvement.md
-  - Power Platform:
-    - Analysis: gasvaluechain/gvc-analysis.md
-  - Data products:
-    - Gassco: gasops/go-analysis.md
-    - Endur: gasops/go-dc-dispatch.md
+    - Improvement network: impnetwork.md
+  - Low Code:
+    - Capabilities: lowcode/index.md
+    - Technical fit: lowcode/techfit.md
+  - Data:
+    - Atlas: data/atlas.md
+    - Gassco: data/gassco.md

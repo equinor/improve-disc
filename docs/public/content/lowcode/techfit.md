@@ -1,0 +1,7 @@
+# Technological fit 
+
+
+## Ground principles
+
+
+
