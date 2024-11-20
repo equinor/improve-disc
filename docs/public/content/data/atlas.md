@@ -1,1 +1,2 @@
-# Atlas - dataplatform M&S
+# Atlas - dataplatform for M&S
+

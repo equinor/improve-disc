@@ -29,6 +29,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - toc.integrate
+    - content.tooltips
   logo: stylesheets/Equinor_Symbol_Favicon_RED_64x64px.png
   favicon: stylesheets/Equinor_Symbol_Favicon_RED_32x32px.png
 
@@ -86,8 +87,9 @@ nav:
     - Introduction: index.md
     - Improvement network: impnetwork.md
   - Low Code:
-    - Capabilities: lowcode/index.md
+    - Introduction: lowcode/index.md
     - Technical fit: lowcode/techfit.md
+    - Capabilities: lowcode/capabilities.md
   - Data:
     - Atlas: data/atlas.md
     - Gassco: data/gassco.md
